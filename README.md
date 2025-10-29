@@ -1,0 +1,2 @@
+# Inheritance-Exercise
+📘 Description  This project is based on Exercise P-2.39 from the textbook Data Structures and Algorithms in Python by Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser.  The goal of this exercise is to demonstrate inheritance, abstraction, and polymorphism in object-oriented programming using Python classes that represent geometric shapes.  🧱 Objective  To design an inheritance hierarchy for different types of polygons where each shape is represented as a class derived from a common abstract base class called Polygon.
