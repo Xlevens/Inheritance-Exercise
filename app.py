@@ -7,9 +7,10 @@ from RegPolygon.regpoly import RegularPolygon
 from Triangle.triangle import Triangle
 from Triangle.equilateral import Equilaterel
 from Triangle.isoceles import Isoceles
+from Octagon import octagon
 
 def App():
-    print("Choose shape: 1=Triangle, 2=Rectangle, 3=Square, 4=Equilateral Triangle 5=Pentagon 6=Hexagon")
+    print("Choose shape: 1=Triangle, 2=Rectangle, 3=Square, 4=Equilateral Triangle 5=Pentagon 6=Hexagon 7=Octagon")
     choice = int(input("Enter choice: "))
 
     if choice == 1:
@@ -38,6 +39,10 @@ def App():
     elif choice == 6:
         s = float(input("Enter side: "))
         shape = Hexagon(s)
+    elif choice == 7:
+        s = float(input("Enter side: "))
+        shape = Hexagon(s)
+
 
     else:
         print("Invalid choice")
@@ -46,4 +51,3 @@ def App():
     print(f"Perimeter = {shape.perimeter():.2f}")
     print(f"Area = {shape.area():.2f}")
 
-App()

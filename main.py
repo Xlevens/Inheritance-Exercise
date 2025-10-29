@@ -1,4 +1,3 @@
-from Triangle.triangle import Triangle
-s = Triangle(3,3,4)
-print(s.area())
-print(s.perimeter())
+from app import App
+if __name__ == "__main__":
+    App()
